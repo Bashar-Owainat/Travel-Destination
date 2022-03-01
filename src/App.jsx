@@ -1,11 +1,11 @@
 import react from "react";
 
-
+import Home from "./components/home/Home";
 function App() {
 
     return (
         <>
-        hi react
+        <Home/>
         </>
     )
 };
