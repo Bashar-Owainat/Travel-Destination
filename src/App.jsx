@@ -1,11 +1,12 @@
-import react from "react";
+
+import data from "./data/db.json";
 
 import Home from "./components/home/Home";
 function App() {
 
     return (
         <>
-        <Home/>
+        <Home tours={data}/>
         </>
     )
 };
