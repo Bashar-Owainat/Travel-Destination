@@ -1,18 +1,18 @@
 
 
-function Tours(props){
-console.log(props, "props")
-    return(
+function Tours({ tours }) {
+    
+    return (
         <>
             {
-            props.tours.map((e) =>{
-                return(
-                    <div>
-                       <p>{e.name}</p> 
-                       <img src={e.image} alt="" />
-                    </div>
-                )
-            })
+                tours.map((e) => {
+                    return (
+                        <div key={e.id}>
+                            <p>{e.name}</p>
+                            <img src={e.image} alt="" />
+                        </div>
+                    )
+                })
             }
         </>
     )
