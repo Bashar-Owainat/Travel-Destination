@@ -1,9 +1,11 @@
+import "../header/Header.css"
 function Header(){
 
     return(
-        <>
-        <h1>Travel Destination</h1>
-        </>
+        
+        <div id="header"> <h1>Travel Destination</h1>
+        <a href="/">Home</a>
+        </div>
     )
 };
 

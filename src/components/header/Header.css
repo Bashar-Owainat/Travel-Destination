@@ -1,0 +1,15 @@
+#header{
+    
+    border: solid 3px #000000;
+    
+    background-color: #ffee00;
+}
+
+#header a, h1 {
+    display: inline-block;
+}
+
+#header a{
+    margin-left: 50px;
+    text-decoration: none;
+}

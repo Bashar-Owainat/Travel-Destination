@@ -1,0 +1,14 @@
+#footer{
+     
+    border: solid 3px #000000;
+    
+    background-color: #ffee00;
+
+    
+}
+
+#footer p, a {
+    display: inline-block;
+    margin: 10px;
+    text-decoration: none;
+}
