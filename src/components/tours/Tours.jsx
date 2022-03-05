@@ -1,11 +1,22 @@
 import Tour from "./tour/Tour";
-
+import "../tours/Tours.css";
 function Tours({ tours }) {
-
+    console.log(tours)
     return (
-    
-        <Tour tours={tours} />
-    
+        <>
+            {
+                tours.map(element => {
+                    return (
+                        <div key={element.id} id="container">
+                            <Tour name={element.name} image={element.image} id={element.id} />
+                        </div>
+                    )
+                })
+            }
+
+        </>
+
+
     )
 
 
