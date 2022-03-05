@@ -1,25 +1,22 @@
 import "../tour/Tour.css"
 import { Link } from "react-router-dom";
 
-function Tour({ tours }) {
-    console.log(tours);
+function Tour({ name, image, id}) {
+    console.log(name, image, id);
 
-    
+
     return (
         <>
 
             {
-                tours.map((e) => {
-                    return (
-                        <Link to={"/city/"+e.id} >
-                            <div id="container"key={e.id}>
 
-                                <p>{e.name}</p>
-                                <img src={e.image} alt="" />
-                            </div>
-                        </Link>
-                    )
-                })
+
+                <Link to={"/city/" + id} >
+                    <h3>{name}</h3>
+                    <img src={image} alt="" />
+                </Link>
+                    
+                
             }
 
         </>

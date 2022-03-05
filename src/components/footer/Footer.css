@@ -1,14 +1,18 @@
-#footer{
-     
-    border: solid 3px #000000;
-    
-    background-color: #ffee00;
+#details img {
 
-    
+    width: 600px;
+    height: 400px;
+    object-fit: cover;
 }
 
-#footer p, a {
-    display: inline-block;
-    margin: 10px;
-    text-decoration: none;
+#details p {
+
+    font-size: medium;
+}
+
+#details {
+    padding: 10px;
+
+    width: 800px;
+    border: solid;
 }
